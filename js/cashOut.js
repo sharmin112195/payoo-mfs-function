@@ -16,7 +16,7 @@ document.getElementById('btn-cash-out')
          alert('You do not have enough money to cash out');
          return;
        }
-       
+
        const newBalance = balance - cashOut;
        document.getElementById('account-balance').innerText = newBalance;
 
@@ -34,10 +34,6 @@ document.getElementById('btn-cash-out')
         alert('invalid')
     }
 
-    if(isNaN(cash)){
-      alert('Failed to cash out.');
-      return;
-    }
 
     
 
